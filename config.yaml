@@ -1,0 +1,12 @@
+cnn:
+  class_type: multi
+  img_path: ./def_image.jpg
+  model_name: quality
+  binary:
+    num_classes: 2
+    cnn_name: binary_cnn.pt
+  multi:
+    num_classes: 12
+    cnn_name: multi_cnn.pt
+yolo:
+  yolo_name: best.pt

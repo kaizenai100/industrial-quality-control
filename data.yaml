@@ -1,0 +1,15 @@
+train: ./data/yolo/images/train
+val: ./data/yolo/images/val
+nc: 12
+names: [ normal,
+         nonconductive,
+         convexpowder,
+         rubtheflowers,
+         orangepeel,
+         concave,
+         crackingcoating,
+         leakybottom,
+         bumps,
+         dirtyspots,
+         pitting,
+         other ]
